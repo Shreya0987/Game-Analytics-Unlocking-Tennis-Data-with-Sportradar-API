@@ -6,7 +6,7 @@ import os
 # ---------------- DATABASE CONNECTION ----------------
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:Vrishmanyu%4001@localhost:5432/tennis_analytics"
+    "postgresql+psycopg2://postgres:Shreya0987@localhost:5432/tennis_analytics"
 )
 
 print("PostgreSQL connected successfully")
@@ -14,7 +14,7 @@ print("PostgreSQL connected successfully")
 # ---------------- FILE PATH (FIXED) ----------------
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_PATH = os.path.join(BASE_DIR, "data", "competitions_raw.json")
+DATA_PATH = os.path.join(BASE_DIR, "Data", "competitions_raw.json")
 
 # ---------------- LOAD JSON ----------------
 
