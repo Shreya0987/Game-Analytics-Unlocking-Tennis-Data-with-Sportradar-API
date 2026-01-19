@@ -5,13 +5,20 @@ The system demonstrates an end-to-end data engineering and analytics pipeline, s
 
 The project is developed as part of an academic Major Project and showcases real-world concepts such as API integration, ETL pipelines, relational database design, SQL analytics, and Streamlit dashboards.
 
-🛠️ Technologies Used
+🛠️ Technologies Used:
+
 Python
+
 Sportradar Tennis API
+
 PostgreSQL
+
 SQLAlchemy
+
 Pandas
+
 Streamlit
+
 SQL
 
  Data Pipeline Explanation
