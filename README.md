@@ -19,17 +19,25 @@ SQL
 1️⃣ Data Collection
 Tennis data such as competitions, categories, complexes, venues, and rankings is fetched using the Sportradar Tennis API.
 Raw API responses are stored in JSON format inside the data/ folder.
+
 2️⃣ Data Storage
+
 PostgreSQL is used as the relational database.
 Database tables are created using SQL scripts defined in database/schema.sql.
+
 3️⃣ Data Processing (ETL)
+
 Python scripts in api_scripts/ clean and load raw JSON data into PostgreSQL tables.
 Duplicate data handling is implemented using safe insertion techniques.
 The pipeline is re-runnable without data corruption.
+
 4️⃣ Data Analysis
+
 Business and analytical questions are answered using SQL queries.
 All analytical queries are documented in database/analysis_queries.sql.
+
 5️⃣ Data Visualization
+
 An interactive Streamlit dashboard displays insights related to:
 Competitions and categories
 Venues and complexes
