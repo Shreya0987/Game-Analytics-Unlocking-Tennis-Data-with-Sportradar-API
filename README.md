@@ -87,6 +87,6 @@ This project has not been submitted previously for any other degree, diploma, or
 This project successfully demonstrates an end-to-end sports data analytics pipeline using real-world tennis data.
 By integrating API-based data collection, relational database design, SQL-based analysis, and interactive dashboard visualization, the project highlights practical data engineering and analytics concepts.
 
-Through this work, Vrishmanyu Singh and Shreya Ghosal gained hands-on experience in handling API limitations, building re-runnable ETL pipelines, and presenting insights through a Streamlit dashboard.
+Through this work, Shreya Ghosal and Vrishmanyu Singh gained hands-on experience in handling API limitations, building re-runnable ETL pipelines, and presenting insights through a Streamlit dashboard.
 The project effectively bridges theoretical knowledge with real-world implementation and serves as a strong foundation for advanced analytics and data-driven decision-making.
 
