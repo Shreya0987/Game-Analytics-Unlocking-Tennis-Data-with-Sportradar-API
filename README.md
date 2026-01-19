@@ -37,37 +37,38 @@ Competitor rankings (subject to API availability)
 Dashboard snapshots are provided in PDF format inside the docs/ folder.
 
 📊 Dashboard
-The Streamlit dashboard provides:
 
+The Streamlit dashboard provides:
 Competition analytics by category and type
 Venue distribution by country and complex
 Ranking insights where API data is available
 Dashboard preview is available here: docs/Tennis Analytics Dashboard.pdf
 
 ⚠️ API Limitation Note
-The Sportradar trial API does not provide access to doubles rankings data. This limitation is handled programmatically by:
 
+The Sportradar trial API does not provide access to doubles rankings data. This limitation is handled programmatically by:
 Detecting empty or invalid API responses
 Storing a documented placeholder JSON
 Allowing the ETL pipeline to complete without failure
 This reflects real-world data engineering practices when working with restricted APIs.
 
 ▶️ How to Run the Project
+
 Install dependencies
 pip install -r requirements.txt
-
 Run the Streamlit dashboard
 python -m streamlit run streamlit_app/app.py
 
 🎓 Academic Declaration
-We hereby declare that this project titled “Game Analytics – Unlocking Tennis Data with Sportradar API” is an original work carried out by Shreya Ghosal and Vrishmanyu Singh as part of our academic curriculum.
 
+We hereby declare that this project titled “Game Analytics – Unlocking Tennis Data with Sportradar API” is an original work carried out by Shreya Ghosal and Vrishmanyu Singh as part of our academic curriculum.
 All the work presented in this project has been completed by us under academic guidelines.
 The data used in this project has been sourced from publicly available APIs and is used strictly for learning, analysis, and academic demonstration purposes.
 
 This project has not been submitted previously for any other degree, diploma, or certification.
 
 ✅ Conclusion
+
 This project successfully demonstrates an end-to-end sports data analytics pipeline using real-world tennis data.
 By integrating API-based data collection, relational database design, SQL-based analysis, and interactive dashboard visualization, the project highlights practical data engineering and analytics concepts.
 
